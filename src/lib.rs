@@ -1,7 +1,7 @@
 mod header_parser;
 mod jwk;
 pub mod jwk_auth;
-mod verifier;
+pub mod verifier;
 
 #[cfg(test)]
 mod tests {
